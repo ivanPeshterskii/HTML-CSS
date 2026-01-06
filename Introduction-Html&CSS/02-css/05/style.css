@@ -1,0 +1,41 @@
+
+section > p {
+    color: #2f4f4f;
+}
+
+section article p {
+    color: #2f4f4f;
+}
+
+article.highlight p {
+    color: #2f4f4f;
+}
+
+article.highlight + article p {
+    background-color: #f48c8c;
+    padding: 5px;
+}
+
+li {
+    font-weight: bold;
+}
+
+li.important {
+    color: tomato;
+}
+
+a.link1 {
+    color: darkblue;
+}
+
+a.link2 {
+    color: blue;
+}
+
+a.link3 {
+    color: green;
+}
+
+h2 ~ p {
+    color: royalblue;
+}

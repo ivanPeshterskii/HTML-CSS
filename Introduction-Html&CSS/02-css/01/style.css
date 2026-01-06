@@ -1,0 +1,33 @@
+body{
+    font-family: Georgia, serif;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.special{
+    font-style: italic;
+}
+
+.highlight-box {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.highlight-text {
+    background-color: yellow;
+    display: inline-block;
+    padding: 3px 6px;
+}

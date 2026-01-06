@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #fff;
+}
+
+.box {
+  border: 1px solid #cfcfcf;
+  margin: 14px 18px;
+  padding: 18px 22px;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 36px; 
+}
+
+.nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1 {
+  margin: 0 0 14px 0;
+  font-size: 42px;
+  font-weight: 700;
+  color: #333;
+}
+
+h2 {
+  margin: 0 0 12px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+  color: #444;
+}

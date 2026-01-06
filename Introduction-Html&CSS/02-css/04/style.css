@@ -1,0 +1,35 @@
+
+.nav {
+    list-style: disc;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav .italic {
+    font-style: italic;
+}
+
+.services-title {
+    color: darkred;
+    font-weight: bold;
+}
+
+.service-box {
+    background-color: #b7dfe9;
+    padding: 5px;
+    margin: 8px 0;
+}
+
+.image-box {
+    margin-top: 20px;
+}
+
+.image-box img {
+    width: 200px;
+    border: 10px solid red;
+}

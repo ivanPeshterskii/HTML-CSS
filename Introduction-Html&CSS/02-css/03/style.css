@@ -1,0 +1,55 @@
+
+.highlighted {
+    color: blue;
+}
+
+.special {
+    background-color: #ffc107;
+    padding: 8px;
+    font-weight: bold;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    margin: 10px 0;
+}
+
+.importantBlue {
+    color: aquamarine;
+}
+
+.importantRed {
+    color: red;
+    font-style: italic;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+li {
+    color: black;
+}
+
+li.important {
+    color: #1aa3b8;
+    font-weight: bold;
+}
+
+li.red {
+    color: red;
+    font-style: italic;
+}
+
+
+.fancy-link {
+    color: blue;
+    font-weight: bold;
+}
+
+.fancy-link.softuni {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+.bold {
+    font-weight: bold;
+}
