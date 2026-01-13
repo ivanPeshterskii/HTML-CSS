@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.box {
+ 
+  padding: 15px;
+  width: 90%;
+}
+
+
+.uniform {
+  border: 2px solid black;
+  margin: 20px;
+}
+
+
+.nonUniformMargin {
+  border: 2px solid black;
+  margin: 10px 30px 20px 40px;
+}
+
+.negativeMargin {
+  border: 2px solid black;
+  margin-top: -20px;
+}
