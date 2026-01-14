@@ -1,0 +1,30 @@
+.dashed {
+    border: 3px dashed black;
+    margin: 30px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
+    width: 450px;
+}
+
+.solid {
+    border: 3px solid black;
+    margin: 30px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
+    width: 450px;
+}
+
+.dotted {
+    border: 3px dotted black;
+    margin: 30px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
+    width: 450px;
+}
+
+.mixed {
+    border-top: 3px dashed black;
+    border-bottom: 3px dashed black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin: 30px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
+    width: 450px;
+}
