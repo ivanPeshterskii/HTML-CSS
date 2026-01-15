@@ -1,0 +1,26 @@
+section {
+    text-align: center;
+    border: 2px dashed black;
+    margin: 20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
+}
+
+.margin {
+    text-align: left;
+    background-color: orange;
+}
+
+.border {
+    text-align: left;
+    background-color: burlywood;
+}
+
+.padding {
+    text-align: left;
+    background-color: green;
+}
+
+.content {
+    text-align: center;
+    background-color: blue;
+}
