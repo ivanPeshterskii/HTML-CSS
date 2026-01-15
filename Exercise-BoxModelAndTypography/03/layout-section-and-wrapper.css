@@ -1,0 +1,17 @@
+
+.container {
+    border: 3px solid green;
+}
+
+.internal {
+    border: 3px solid black;
+    margin: 20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
+}
+
+div {
+    border: 3px solid blue;
+    margin: 20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
+    text-align: left;
+}
