@@ -1,0 +1,27 @@
+.container {
+    width: 500px;
+    height: 180px;
+    border: 2px solid blue;
+    margin-bottom: 35px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 55px;
+    height: 45px;
+    background: #eee;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gap-row {gap: 2em 0; }
+
+.gap-column {gap: 0 2em; }
+
+.gap-both {gap: 2em; }
