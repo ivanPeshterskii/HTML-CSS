@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  width: 500px;
+  height: 80px;
+  border: 3px solid blue;
+  padding: 10px;
+  margin-bottom: 35px;
+
+  display: flex;
+}
+
+.box {
+  width: 60px;
+  background: #eee;
+  border: 2px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+.grow-all .box {
+  flex-grow: 1;
+}
+
+.grow-second .grow {
+  flex-grow: 1;
+}
+
+.grow-proportional .grow1 {
+  flex-grow: 1;
+}
+
+.grow-proportional .grow2 {
+  flex-grow: 2;
+}
+
+.grow-proportional .grow3 {
+  flex-grow: 3;
+}

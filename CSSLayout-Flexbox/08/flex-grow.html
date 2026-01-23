@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>flex-grow</title>
+  <link rel="stylesheet" href="./flex-grow.css">
+</head>
+<body>
+
+  <h1>flex-grow</h1>
+
+  <h3>flex-grow: 0; (default)</h3>
+  <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <h3>flex-grow: 1;</h3>
+  <div class="container grow-all">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <h3>flex-grow — grow 2nd child only</h3>
+  <div class="container grow-second">
+    <div class="box">1</div>
+    <div class="box grow">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <h3>flex-grow — grow proportionally (1, 2, 3)</h3>
+  <div class="container grow-proportional">
+    <div class="box grow1">1</div>
+    <div class="box grow2">2</div>
+    <div class="box grow3">3</div>
+  </div>
+
+</body>
+</html>

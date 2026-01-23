@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  width: 600px;
+  height: 90px;
+  border: 3px solid blue;
+  padding: 10px;
+  margin-bottom: 35px;
+
+  display: flex;
+}
+
+.box {
+  background: #eee;
+  border: 2px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+.basis-only .box {
+  flex-basis: 5em;
+}
+
+.basis-no-shrink .box {
+  flex-basis: 5em;
+  flex-shrink: 0;
+  max-width: 5em;
+}
+
+.basis-grow .box {
+  flex-basis: 5em;
+  flex-grow: 1;
+  min-width: 5em;
+}
