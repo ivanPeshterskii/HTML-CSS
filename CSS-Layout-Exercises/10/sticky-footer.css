@@ -1,0 +1,25 @@
+.container {
+    border: 2px solid green;
+    padding: 10px 20px 10px 20px;
+}
+
+header {
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid blue;
+    height: 20%;
+}
+
+main {
+    height: 200px;
+    margin: 10px 20px 10px 20px;
+    padding: 30px 20px 10px 20px;
+    border: 2px solid blue;
+}
+
+footer {
+    height: 100xp;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid blue;
+}
