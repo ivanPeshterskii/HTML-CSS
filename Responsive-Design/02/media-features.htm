@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media fetures</title>
+    <link rel="stylesheet" href="./media-features.css">
+</head>
+<body>
+    <h1>Media fetures</h1>
+    <p>Not complete list</p>
+
+    <p>https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features</p>
+
+    <h3>hover</h3>
+    <p>Does the primary input mechanism allow the user to hover 
+        over elements? Added in Media Queries Level 4.
+    </p>
+
+    <p>
+        @media (hover: none) {
+        body::before {
+            display: block;
+            content: 'This device doesn't support hover';
+            }
+        }
+    </p>
+
+    <h3>orientation</h3>
+    <p>Orientation of the viewport.</p>
+
+    <p>
+        @media (orientation: landscape) {
+            body::before {
+            isplay: block;
+            content: 'The device is in landscape orientation';
+            }
+        }
+    </p>
+
+    <h3>width</h3>
+    <p>
+        Width of the viewport including width of scrollbar.
+    </p>
+
+    <p>
+        @media (width: 600px) {
+            body::before {
+            display: block;
+            content: 'The viewport width is 600px';
+            }
+        }
+    </p>
+
+    <h3>height</h3>
+    <p>
+        Height of the viewport.
+    </p>
+
+    <p>
+        @media (height: 800px) {
+            body::before {
+            display: block;
+            content: 'The viewport height is 800px';
+            }
+        }
+
+    </p>
+</body>
+</html>
