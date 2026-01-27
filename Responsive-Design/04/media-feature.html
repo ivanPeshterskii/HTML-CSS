@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media feature</title>
+    <link rel="stylesheet" href="./media-feature.css">
+</head>
+<body>
+    <h1>Media Feature - width, min-width, max-width</h1>
+    <h4>width</h4>
+
+    <p>
+        @media (width: 800px) {
+        body::before {
+        display: block;
+        content: 'The viewport width is exactly 800px';
+        }
+        }       
+    </p>
+
+    <h4>min-width</h4>
+    <p>
+        @media (min-width: 800px) {
+        body::before {
+        display: block;
+        content: 'The viewport width is larger than 800px';
+        }
+        }  
+    </p>
+
+    <h4>max-width</h4>
+    <p>
+        @media (max-width: 800px) {
+        body::before {
+        display: block;
+        content: 'The viewport width is larger than 800px';
+        }
+        }  
+    </p>
+</body>
+</html>
