@@ -23,7 +23,7 @@ body::before {
 
 @media all {
     body::before {
-        content: "The page is being shown an a screen";
+        content: "The page is being shown  a screen";
     }
 }
 
