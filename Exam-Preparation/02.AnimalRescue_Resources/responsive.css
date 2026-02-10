@@ -6,4 +6,22 @@
     header nav img {
         padding-bottom: 0.8em;
     }
+
+    .header-title {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    section.our-dogs > div.our-dogs-wrapper > ul > li > p {
+        padding-bottom: 1em;
+    }
+
+    .our-dogs-wrapper ul li img {
+        height: 200px;
+        width: 150px;
+    }
+
+     .helpNeed ul {
+        flex-direction: column;
+    }
 }
