@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  color: #111;
+  background: #fff;
+}
+
+.site-header {
+  background: #000;
+}
+
+.site-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.site-menu {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.site-menu a {
+  opacity: 0.95;
+}
+
+.site-menu a:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.hero {
+  background: #1db954;
+  padding: 36px 16px 150px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: 0.3px;
+}
+
+.plans {
+  position: relative;
+  max-width: 1200px;
+  margin: -110px auto 0; 
+  padding: 0 16px 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  align-items: start;
+}
+
+.plans__decor {
+  position: absolute;
+  left: 16px;
+  top: -70px;
+  width: 240px;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.plan {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+
+.plan h2 {
+  text-align: center;
+  padding: 22px 18px 10px;
+  font-size: 20px;
+  color: #2b2b2b;
+}
+
+.plan__features {
+  padding: 10px 28px 18px;
+  color: #333;
+  font-size: 14px;
+
+  display: grid;
+  gap: 10px;
+}
+
+.plan__features li {
+  position: relative;
+  padding-left: 18px;
+}
+
+.plan__features li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #8a8a8a;
+}
+
+.plan__btn {
+  display: block;
+  margin: 10px auto 18px;
+  padding: 10px 22px;
+  background: #1db954;
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.plan__btn:hover {
+  filter: brightness(0.95);
+}
+
+.plan__prices {
+  background: #121212;
+  color: #fff;
+  padding: 16px 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  font-weight: 700;
+}
+
+.plan__prices p {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.plan--individual .plan__prices p + p {
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  padding-left: 18px;
+}
+
+.payment {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 10px 16px 60px;
+
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.payment h2 {
+  grid-column: 1 / -1;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.payment__list {
+  display: grid;
+  gap: 14px;
+  color: #2b2b2b;
+  font-size: 13px;
+}
+
+.payment__list li {
+  line-height: 1.5;
+}
+
+.payment__logo {
+  justify-self: center;
+  width: 360px;
+}
+
+.compare {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 16px 80px;
+  text-align: center;
+}
+
+.compare h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.compare p {
+  color: #4b4b4b;
+  margin-bottom: 28px;
+}
+
+.pricing-table {
+  width: min(820px, 100%);
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pricing-table td {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pricing-table td:first-child {
+  text-align: left;
+}
+
+.pricing-table tr:nth-child(odd) td {
+  background: #d9d9d9;
+}
+
+.pricing-table tr:nth-child(even) td {
+  background: #67d28f; 
+}
+
+.cell-icon {
+  width: 70px;
+  text-align: center;
+}
+
+.cell-icon img {
+  width: 18px;
+  height: 18px;
+  margin: 0 auto;
+}
+
+
+.site-footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  font-size: 13px;
+}
