@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F2F2F2;
+    color: #1A1A1A;
+}
+
+.site-header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.site-header h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.site-header span {
+    color: #3F7FCB;
+}
+
+.site-header p {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #666;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background: #8FA9B8;
+    width: 360px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+
+.card-content {
+    padding: 24px;
+}
+
+.card-content h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    color: #2F2F2F;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #3F7FCB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: 2px solid #8FB3E2;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #2f6db5;
+}

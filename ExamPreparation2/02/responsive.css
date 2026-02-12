@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    .home-navbar {
+        margin: 0;
+        padding: 0;
+        border-bottom: 5px solid white;
+    }
+
+    .home-container01 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-hero1 {
+        flex-direction: column;
+    }
+
+    .home-container03 {
+        align-items: center;
+    }
+
+    .home-cards-container img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .home-full-width-banner.section-container {
+        width: 100%;
+        margin: 1em;
+        padding: 1em;
+        flex-direction: column;
+    }
+    
+
+    .home-full-width-banner.section-container img {
+        width: 100%;
+    }
+
+    footer.home-footer1 {
+        flex-direction: column-reverse;
+        
+    }
+
+    div.home-links-container {
+        flex-direction: column;
+    }
+}
